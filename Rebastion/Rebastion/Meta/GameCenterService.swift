@@ -8,8 +8,8 @@ import UIKit
 @Observable
 final class GameCenterService {
     enum Leaderboard {
-        static let score = "bonk.score"
-        static let wave = "bonk.wave"
+        static let score = "rebastion.score"
+        static let wave = "rebastion.wave"
     }
 
     private(set) var isAuthenticated = false

@@ -40,9 +40,9 @@ Roguelite de arena para iOS com visual pixel-art neon. Você controla um herói 
 
 ```
 Rebastion/
-├── RunGame/                  # Projeto Xcode
-│   ├── RunGame.xcodeproj
-│   └── RunGame/
+├── Rebastion/                # Projeto Xcode
+│   ├── Rebastion.xcodeproj
+│   └── Rebastion/
 │       ├── Game/             # Motor do jogo, modelos, eventos e RNG com seed
 │       ├── Scene/            # Cena SpriteKit, nós, texturas, animações e equipamento do herói
 │       ├── UI/               # Telas SwiftUI: menu, HUD, upgrades, overlays e ajustes
@@ -56,9 +56,9 @@ Rebastion/
 
 ## Executar o app
 
-1. Abra `RunGame/RunGame.xcodeproj` no Xcode.
+1. Abra `Rebastion/Rebastion.xcodeproj` no Xcode.
 2. Selecione seu time de desenvolvimento em *Signing & Capabilities* (o Game Center exige uma conta de desenvolvedor).
-3. Escolha um iPhone ou simulador e execute o scheme `RunGame`.
+3. Escolha um iPhone ou simulador e execute o scheme `Rebastion`.
 4. O herói dispara sozinho. Arraste dentro da arena para mirar e mantenha o dedo parado por 0,8 s para ativar a Ultimate quando ela estiver carregada.
 
 ## Executar o backend (experimental)

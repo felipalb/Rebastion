@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Dependency-free MVP backend for Neon Ricochet."""
+"""Dependency-free MVP backend for Rebastion."""
 
 from __future__ import annotations
 
@@ -33,7 +33,7 @@ def save_scores(scores: list[dict[str, Any]]) -> None:
 
 
 class GameAPI(BaseHTTPRequestHandler):
-    server_version = "NeonRicochet/0.1"
+    server_version = "Rebastion/0.1"
 
     def do_GET(self) -> None:  # noqa: N802
         path = urlparse(self.path).path
@@ -94,5 +94,5 @@ class GameAPI(BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    print(f"Neon Ricochet API running at http://{HOST}:{PORT}")
+    print(f"Rebastion API running at http://{HOST}:{PORT}")
     ThreadingHTTPServer((HOST, PORT), GameAPI).serve_forever()
