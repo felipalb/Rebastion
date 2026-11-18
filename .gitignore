@@ -67,3 +67,6 @@ fastlane/test_output
 # Backend local data
 backend/scores.json
 __pycache__/
+
+# Local backups
+_backup_*.tar.gz
