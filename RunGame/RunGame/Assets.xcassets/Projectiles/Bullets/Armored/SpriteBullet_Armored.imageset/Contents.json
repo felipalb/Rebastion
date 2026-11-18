@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "SpriteBullet_Armored.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

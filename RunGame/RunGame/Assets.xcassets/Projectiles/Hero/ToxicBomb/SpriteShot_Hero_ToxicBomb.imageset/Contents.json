@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "SpriteShot_Hero_ToxicBomb.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

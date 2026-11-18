@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "HeroGear_PlasmaOrbit_Legendary_RunLeft_02.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "SpriteShot_Tank_01.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

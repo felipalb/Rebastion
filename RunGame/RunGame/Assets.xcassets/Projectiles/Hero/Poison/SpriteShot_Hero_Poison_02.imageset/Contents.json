@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "SpriteShot_Hero_Poison_02.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

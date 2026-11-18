@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "HeroGear_IonCrown_Legendary_DashLeft_04.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : false
+  }
+}

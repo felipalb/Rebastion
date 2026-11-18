@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "HeroGear_VoidCape_Fusion_Idle_03.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : false
+  }
+}
