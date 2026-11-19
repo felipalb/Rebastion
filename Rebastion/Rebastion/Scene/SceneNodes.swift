@@ -467,8 +467,8 @@ final class BallNode: SKNode {
     private(set) var type: BallType = .basic
     /// Soft additive halo in the shot's color, so the player's shots glow and enemy shots don't.
     private let glow = SKSpriteNode(texture: SceneTextures.glow)
-    /// Every type flies with the basic shot's art so the screen stays readable; the glow and
-    /// trail color still tell the types apart.
+    /// Every type flies with the basic shot's art so the screen stays readable; the glow color
+    /// still tells the types apart. Only basic (or hot) shots leave a trail.
     static let shotArt = "SpriteShot_Hero_Basic"
 
     /// Animated projectile art, nose along the flight path.
@@ -489,7 +489,6 @@ final class BallNode: SKNode {
         glow.alpha = 0.6
 
         trail.particleTexture = SceneTextures.spark
-        trail.particleBirthRate = 70
         trail.particleLifetime = 0.22
         trail.particleAlpha = 0.75
         trail.particleAlphaSpeed = -3.4
@@ -544,6 +543,7 @@ final class BallNode: SKNode {
         shot.color = Self.hotColor
         shot.colorBlendFactor = isHot ? 0.7 : 0
         trail.particleColor = color
+        trail.particleBirthRate = (type == .basic || isHot) ? 70 : 0
         trail.particleScale = radius / 12 * (isHot ? 1.3 : 0.9)
     }
 
